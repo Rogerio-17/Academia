@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -107,4 +107,30 @@ body {
 
 .form-pesq button:hover {
   background: #ed0707a2;
+}
+
+.informacoes_aluno_alunos {
+  width: 900px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.tabela_informacoes {
+  background: #d9d9d9;
+}
+
+.tabela_informacoes td {
+  text-align: center;
+  height: 50px;
+  width: 150px;
+}
+
+.dados_do_aluno {
+  background: #eeebeb;
+}
+
+.dados_do_aluno td {
+  height: 50px;
+  text-align: center;
+  border-top: 1px solid black;
 }
