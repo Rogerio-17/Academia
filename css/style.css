@@ -41,14 +41,12 @@ body {
   text-decoration: none;
   font-weight: 700;
   color: #ffffff;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .menu-principal a:hover {
-  background-color: rgba(87, 85, 85, 0.014);
-  border-bottom: 3px solid white;
-  border-radius: 5px;
-  padding: 10px;
+  color: black;
+  font-weight: 900;
 }
 
 .container {
@@ -98,7 +96,7 @@ body {
   font-weight: 600;
   border-radius: 8px;
   margin-left: 15px;
-  transition: 0.2;
+  transition: 0.4s;
 
   box-shadow: 0 0 0 0;
   border: 0 none;
@@ -106,11 +104,12 @@ body {
 }
 
 .form-pesq button:hover {
-  background: #ed0707a2;
+  background: #ed070777;
 }
 
 .informacoes_aluno_alunos {
-  width: 900px;
+  width: 96%;
+  min-width: 600px;
   margin: auto;
   margin-top: 60px;
 }
@@ -133,4 +132,8 @@ body {
   height: 50px;
   text-align: center;
   border-top: 1px solid black;
+}
+
+td.semana {
+  width: 60px;
 }
