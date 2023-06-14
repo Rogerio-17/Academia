@@ -23,7 +23,7 @@ body {
 }
 
 .menu-principal {
-  width: 350px;
+  width: 450px;
   padding: 5px;
   display: flex;
   justify-content: space-between;
@@ -111,7 +111,7 @@ body {
   width: 96%;
   min-width: 600px;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .tabela_informacoes {
@@ -136,4 +136,48 @@ body {
 
 td.semana {
   width: 60px;
+}
+
+.status_ativo {
+  width: 90px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 20px;
+  margin: auto;
+  background: #19d72c;
+}
+
+.status_cancelado {
+  width: 90px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 20px;
+  margin: auto;
+  background: #ed0707;
+}
+
+.containeradduser {
+  display: flex;
+  justify-content: right;
+}
+
+.adduser {
+  margin-top: 60px;
+  margin-right: 28px;
+  padding: 10px;
+  width: 140px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #ed0707;
+  font-weight: 700;
+
+  transition: 0.4s;
+}
+
+.adduser:hover {
+  background: rgba(233, 67, 67, 0.815);
 }
